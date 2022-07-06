@@ -77,7 +77,7 @@ public class TestActivity extends Activity implements View.OnClickListener {
   public void onClick(View v) {
     //unbind();
 
-    Ipc.Companion.sendMessage("i'm client click");
+    Ipc.Companion.sendMessage("i'm client click1");
 
     //try {
     //  mService.receive("i'm client onClick");
