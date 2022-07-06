@@ -4,6 +4,7 @@
     package="com.example.aidl_client">
 
 <!--  android:theme="@style/Theme.Aidl_client"-->
+  <uses-permission android:name="android.permission.SECOND_DISPLAY" />
 
   <application
       android:theme="@style/Theme.Aidl_client"
@@ -28,8 +29,7 @@
       </intent-filter>
     </activity>
     <activity android:name=".TestActivity" android:exported="true" android:launchMode="singleTask"/>
-    <service android:name="com.example.ipc.LocalService"
-        android:exported="true"/>
+
   </application>
 
 </manifest>

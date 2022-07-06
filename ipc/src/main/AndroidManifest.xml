@@ -9,6 +9,8 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:supportsRtl="true"
       android:theme="@style/Theme.Aidl_example">
+    <service android:name="com.example.ipc.LocalService"
+        android:exported="true"/>
   </application>
 
 </manifest>
